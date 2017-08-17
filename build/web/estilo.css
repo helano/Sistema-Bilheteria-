@@ -1,0 +1,357 @@
+*{
+    font-family: verdana;
+    
+    
+}
+.logo a{
+    
+}
+.logo a:hover{
+    
+}
+.menu navbar-fixed-top{
+    float: left;
+}
+.btn btn-warning{
+    background-color: green;
+    color:green;
+}
+
+.fundo-padra{
+    background-image: url("img/background-login.png");
+}
+.h1{
+    color:white;
+}
+h1table{
+    margin: 50px;
+    color: green;
+    
+}
+.table{
+    margin-top: 50px;
+}
+.table td{
+    text-align: center;
+    vertical-align: middle;
+    background-color:white;
+    
+    
+}
+.table th{
+    text-align: center;
+    background-color: green;
+    color:white;
+}
+.contato{
+	background: url("img/background-login.png");
+	width: 100%; float: left;
+        
+
+	 padding: 8px;
+	height: 800px;
+	border-radius: 8px;
+
+	color: #b35606;
+	text-decoration: none
+
+
+
+}	
+.contato form{
+		width: 100%;
+                height: 300px;
+		
+		margin-top: 10px;
+		margin-left: 150px;
+
+	}
+	.contato form input {
+		width: 30%; float: left;
+		border: 2px solid #fff; border-radius: 5px;
+		padding: 15px 20px; color: white;
+		background-color: initial;
+		 margin: 1% 340px 1% 300px;
+
+	}
+	.contato form label {
+		width: 100%; float: left;
+		color: white;
+		margin: 0 20% 0 21%;
+
+	}
+	
+.login{
+   padding-left: 550px;
+padding-top: 100px;
+
+  float: left;
+	background-color: black;
+
+	width: 100%;
+	height: 700px;
+	background-image: url("img/background-login.png");
+        background-repeat: no-repeat;
+}
+.principal{
+padding-left: 160px;
+padding-top: 100px;
+
+  float: left;
+	background-color: black;
+
+	width: 100%;
+	height: 750px;
+	background-image: url("img/background3.png");
+        background-repeat: no-repeat;
+       
+}
+.principal-torcedor{
+padding-left: 230px;   
+padding-top: 100px;
+
+  float: left;
+	background-color: white;
+
+	width: 100%;
+	height: 750px;
+        
+        /*
+	background-image: url("img/background-painel-torcedor.png"); 
+        background-repeat: no-repeat;
+        */
+}
+.principal-torcedor h1{
+    color: green;
+    font-family: verdana;
+}
+.principal-torcedor table{
+    margin-top: 80px;
+}
+.principal-torcedor table th, td{
+    color: green;
+   
+    text-align: center;
+}
+
+
+.principal-table{
+    padding-right: 30px;
+    padding-top: 100px;
+
+  
+	background-color: black;
+
+	
+	height: 750px;
+	background-image: url("img/background-table.png");
+        
+        background-repeat: no-repeat;
+    
+}
+
+
+principal-table h1{
+      margin: 50px;
+    color: green;  
+}
+
+/* 
+formulario
+*/
+
+.principal-form{
+    padding-right: 30px;
+    padding-top: 100px;
+
+  
+	background-color: black;
+
+	
+	height: 750px;
+	background-image: url("img/background-table.png");
+        
+        background-repeat: no-repeat;
+    
+}
+
+
+
+
+
+principal-form h1{
+      margin: 50px;
+    color: green;  
+}
+#success_message{ display: none;}
+
+
+
+
+
+/* 
+formulario
+*/
+
+
+
+.menu{
+    background-color: green;
+    width: 100%;
+    height: 60px; 
+    padding-top: 8px;
+    
+    
+}
+.menu ul {
+    list-style: none;
+ 
+}
+.menu ul li a{
+    
+  float:left;
+  font-family: verdana;
+  color: white;
+}
+.nav{
+    background-color:green;
+}
+.nav nav-pills li a{
+ color: white;    
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+
+.meus-ingressos a{
+
+	width: 200px;
+    height: 157px;
+    padding: 20px;
+    margin: 50px;
+	background-image: url("img/stadium-verde.png")  ;
+        background-repeat: no-repeat;
+	float: left;
+	
+	align-content: center;
+
+}
+.meus-ingressos a:hover{
+
+background-image: url("img/stadium-verde-hover.png")  ;
+transition-duration: 0.7s;
+
+transition-delay: 0.1s;
+}
+.form-partidas a{
+
+	width: 200px;
+    height: 157px;
+    padding: 20px;
+    margin: 50px;
+	background-image: url("img/bola-verde.png")  ;
+        background-repeat: no-repeat;
+	float: left;
+	
+	align-content: center;
+
+}
+.form-estadio a:hover{
+
+background-image: url("img/stadium-verde-hover.png")  ;
+transition-duration: 0.7s;
+
+transition-delay: 0.1s;
+}
+.form-estadio a{
+
+	width: 200px;
+    height: 157px;
+    padding: 20px;
+    margin: 50px;
+	background-image: url("img/stadium-verde.png")  ;
+        background-repeat: no-repeat;
+	float: left;
+	
+	align-content: center;
+
+}
+.form-partidas a:hover{
+
+background-image: url("img/bola-verde-hover.png")  ;
+transition-duration: 0.7s;
+
+transition-delay: 0.1s;
+}
+
+
+.ver-partidas a{
+    	width: 200px;
+    height: 157px;
+    padding: 20px;
+    margin: 50px;
+	background-image: url("img/partidas-verde.png")  ;
+        background-repeat: no-repeat;
+	float: left;
+	
+	align-content: center;
+}
+.ver-partidas a:hover{
+
+background-image: url("img/partidas-verde-hover.png")  ;
+transition-duration: 0.7s;
+
+transition-delay: 0.1s;
+}
+
+.ver-torcedores a{
+    	width: 200px;
+    height: 157px;
+    padding: 20px;
+    margin: 50px;
+	background-image: url("img/torcedores-verde.png")  ;
+        background-repeat: no-repeat;
+	float: left;
+	
+	align-content: center;
+}
+.ver-torcedores a:hover{
+
+background-image: url("img/torcedores-verde-hover.png")  ;
+transition-duration: 0.7s;
+
+transition-delay: 0.1s;
+}
+
+
+.user-icon a{
+
+	width: 200px;
+    height: 157px;
+    padding: 20px;
+    margin: 50px;
+	background-image: url("img/user-verde.png")  ;
+        background-repeat: no-repeat;
+	float: left;
+	
+	align-content: center;
+
+}
+.user-icon a:hover{
+
+background-image: url("img/user-verde.png")  ;
+transition-duration: 0.7s;
+
+transition-delay: 0.1s;
+}
+.meus-ingressos h3{
+	width: 100%;
+	margin-top: 20px;
+	font-family: Arial;
+	font-size: 1.5em;
+	color: green;
+	text-align: justify;
+        text-align: center;
+}
